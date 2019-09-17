@@ -86,6 +86,8 @@ def adding_matz
  programmer_hash[:known_for] =  "Ruby" 
  programmer_hash[:languages] = "LISP"
  programmer_hash[:languages][1] = "C"
+ 
+ return programmer_hash
 end
 
 def changing_alan
